@@ -1,0 +1,144 @@
+body {
+    background-color: hsl(217, 54%, 11%);  
+    font-family: 'Outfit', sans-serif;
+   
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 600px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    margin: auto;
+}
+
+.image-nft {
+    margin-top: 25px;
+}
+
+.image-nft img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    position: relative;
+    left: 7%;
+}
+
+.h1-header {
+    margin-left: 25px;
+}
+
+.h1-header h1 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    margin-top: 21px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+.discription {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: -18px;  
+}
+
+.discription p {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px; 
+}
+
+.cost {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.cost-icon {
+    margin: 5px;
+}
+
+.cost-eth {
+    margin-right: 95px;
+}
+
+.cost-eth p {
+    color: hsl(178, 100%, 50%);
+    font-size: 18px; 
+} 
+
+.days-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+
+.count-days p {
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.clock-icon {
+    margin-right: 5px;
+}
+
+.clock-icon {
+    margin-top: 5px;
+}
+
+
+.create-person {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.icon-person img {
+    width: 35px;
+    border: 2px solid white;
+    border-radius: 35px;  
+    margin-right: 10px; 
+}
+
+.creation-of p {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 18px;
+}
+
+span {
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+hr {
+    border: none;
+    background-color: hsl(215, 32%, 27%);
+    height: 1px; 
+    margin-left: 25px;
+    margin-right: 25px; 
+    font-size: 18px;
+}
+
+.h1-header :hover {
+    cursor: grabbing;
+    color: hsl(178, 100%, 50%);
+}
+
+span:hover {
+    cursor: grabbing;
+    color: hsl(178, 100%, 50%);
+}
+
+.image-nft :hover {
+    background-color:hsl(178, 100%, 50%) ;
+    cursor: grabbing;
+}
