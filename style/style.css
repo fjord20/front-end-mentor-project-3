@@ -1,7 +1,6 @@
 body {
     background-color: hsl(217, 54%, 11%);  
     font-family: 'Outfit', sans-serif;
-   
 }
 
 .container-1 {
@@ -15,15 +14,61 @@ body {
 }
 
 .image-nft {
-    margin-top: 25px;
+    position: relative;
+    width: 90%;
+    margin: 5%; 
 }
 
 .image-nft img {
-    width: 300px;
-    height: 300px;
+    display: block;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
     position: relative;
-    left: 7%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 10px;
+}
+
+.image-nft:hover .overlay {
+    opacity: 0.3;
+    cursor: grabbing;
+}
+
+.eyes-icon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+}
+
+.eyes-icon img {
+    display: block;
+    width: 48px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    /*-webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);*/
+    transform: translate(-50%, -50%);
+}
+
+.image-nft:hover .eyes-icon {
+    visibility: visible;
 }
 
 .h1-header {
@@ -92,7 +137,6 @@ body {
     margin-top: 5px;
 }
 
-
 .create-person {
     display: flex;
     flex-direction: row;
@@ -136,9 +180,4 @@ hr {
 span:hover {
     cursor: grabbing;
     color: hsl(178, 100%, 50%);
-}
-
-.image-nft :hover {
-    background-color:hsl(178, 100%, 50%) ;
-    cursor: grabbing;
 }
