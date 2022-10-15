@@ -62,8 +62,6 @@ body {
     height: auto;
     top: 50%;
     left: 50%;
-    /*-webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);*/
     transform: translate(-50%, -50%);
 }
 
@@ -109,7 +107,7 @@ body {
 }
 
 .cost-eth {
-    margin-right: 95px;
+    margin-right: 93px;
 }
 
 .cost-eth p {
@@ -170,6 +168,7 @@ hr {
     margin-left: 25px;
     margin-right: 25px; 
     font-size: 18px;
+    margin-bottom: 0px;
 }
 
 .h1-header :hover {
